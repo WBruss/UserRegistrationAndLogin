@@ -1,0 +1,17 @@
+server:
+  port: 9009
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:6000/registration
+    username: postgres
+    password: Wainaina4384
+    initialization-mode: always
+    continue-on-error: false
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
